@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babai-Hotel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/babai_logo_new_1-1.png" type="image/x-icon">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!--...................Navbar starts................... -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" ><img src="./images/babai_logo_new_1-1.png" alt="" class="img-fluid"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#reservation">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ..................navbarends..................... -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container text-center">
+            <div class="row gx-5">
+                <div class="col" style="margin-top: 30px;">
+                    <div class="display-3    float-start text-center mt-3" id="hero-section-matter1">"Eating is a
+                        necessity, but cooking is an art."
+                    </div>
+                    <div class="fs-5">
+                        <p>One of the reasons that people enjoy coming to a great restaurant is that when an
+                            extraordinary meal is placed in front of them, they feel honored, respected, and even a
+                            little bit loved.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="img-fluid">
+                        <img src="./images/chef.avif" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <!-- >>>>>>>>>>>>>>>>>>carousel starts <<<<<<<<<<<<<<<<<<<<<-->
+    <div class="container">
+        <h1 class="text-center my-5 page-title fs-1">"Family, food, and forever memories. </h1>
+
+        <div class="carousel-container">
+            <!-- Carousel -->
+            <div id="demoCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
+
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="./images/family-gathered-around-a-table-smiling-free-photo.jpg" alt="Beach" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Life with Kids</h5>
+                            <p>"Lunch with kids is never just a meal—its a mix of giggles, messy hands, and little moments that make the biggest memories." </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./images/844466-family-dinner-a-million-little-things-season-1-episode-4.jpg" alt="Nature" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Dinner with Family</h5>
+                            <p>"The best memories are made around the dinner table—where laughter is served, love is the main course, and togetherness is the sweetest dessert."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carousel3.jpg" alt="City" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Happy moments</h5>
+                            <p>"Good food, great company, and happy moments—lunchtime is the perfect recipe for joy!"</p>
+                        </div> 
+                    </div>
+                    
+                </div>
+
+          
+                <button class="carousel-control-prev" type="button" data-bs-target="#demoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- <div class="text-center mt-4 mb-5">
+            <p class="footer-text">An animated Bootstrap carousel with CSS-only effects</p>
+        </div> -->
+    </div>
+
+    <!-- <<<<<<<<<<<<<<<<<<carousel ends<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title text-start fs-1 fw-bold" style="color: #3c6785;">Our Story</h2>
+                    <p class="fs-4">Founded in 2020, Savory Delights has been serving exceptional cuisine in a warm and
+                        inviting atmosphere. Our chef brings over 20 years of culinary expertise, crafting dishes that
+                        blend traditional techniques with modern innovation.</p>
+                    <p>We source only the freshest ingredients from local farmers and suppliers, ensuring that every
+                        dish not only tastes amazing but also supports our community.</p>
+                    <div class="d-flex flex-wrap gap-4 mt-4 fs-5">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-clock me-2 text-primary"></i>
+                            <span>Open: 11am - 11pm</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-telephone me-2 text-primary"></i>
+                            <span>555-123-4667</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-geo-alt me-2 text-primary"></i>
+                            <span>123 sr nagar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/bgimge.avif" alt="Chef preparing food" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" style="background-color: black;">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 60px; font-weight: 600; color: #3c6785;">Our Menu</h2>
+            <p class="text-center mb-5 fs-4 text-white">Explore our carefully crafted menu featuring seasonal
+                ingredients and chef's specialties</p>
+
+            <!-- Menu Categories -->
+            <ul class="nav nav-pills mb-5 justify-content-center" id="menuTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active menu-category fs-4" id="appetizers-tab" data-bs-toggle="pill"
+                        data-bs-target="#appetizers" type="button" role="tab" aria-controls="appetizers"
+                        aria-selected="true">Appetizers</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link menu-category fs-4" id="main-courses-tab" data-bs-toggle="pill"
+                        data-bs-target="#main-courses" type="button" role="tab" aria-controls="main-courses"
+                        aria-selected="false">Main Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link menu-category fs-4" id="desserts-tab" data-bs-toggle="pill"
+                        data-bs-target="#desserts" type="button" role="tab" aria-controls="desserts"
+                        aria-selected="false">Desserts</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link menu-category fs-4" id="drinks-tab" data-bs-toggle="pill"
+                        data-bs-target="#drinks" type="button" role="tab" aria-controls="drinks"
+                        aria-selected="false">Drinks</button>
+                </li>
+            </ul>
+
+            <!-- Menu Items -->
+            <div class="tab-content" id="menuTabContent">
+
+                <!-- Appetizers -->
+                <div class="tab-pane fade show active" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/burger.jpg" class="card-img-top" alt="Bruschetta">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">Burgers</h5>
+                                        <span class="menu-price">$8.99</span>
+                                    </div>
+                                    <p class="card-text">Grilled burger rubbed with garlic and topped with olive oil,
+                                        salt, tomato, and basil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/sandwidth.jpg" class="card-img-top" alt="Calamari">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">sandwidth</h5>
+                                        <span class="menu-price">$12.99</span>
+                                    </div>
+                                    <p class="card-text">Crispy sandwidth served with lemon and marinara sauce</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/pizza.jpg" class="card-img-top" alt="Stuffed Mushrooms">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0"> Pizzas</h5>
+                                        <span class="menu-price">$10.99</span>
+                                    </div>
+                                    <p class="card-text">pizzas filled with a savory mixture of breadcrumbs,
+                                        herbs, and cheese</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="tab-pane fade" id="main-courses" role="tabpanel" aria-labelledby="main-courses-tab">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/biryani.jpg" class="card-img-top" alt="Grilled Salmon">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">Biryani's</h5>
+                                        <span class="menu-price">$24.99</span>
+                                    </div>
+                                    <p class="card-text">Fresh biryanis grilled to perfection, served with
+                                        seasonal vegetables and lemon butter sauce</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/salmon.jpg" class="card-img-top" alt="Filet Mignon">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">salmon fish</h5>
+                                        <span class="menu-price">$32.99</span>
+                                    </div>
+                                    <p class="card-text">8oz center-cut beef tenderloin, served with garlic mashed
+                                        potatoes and roasted asparagus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/prawn.jpg" class="card-img-top" alt="Mushroom Risotto">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">prawns</h5>
+                                        <span class="menu-price">$18.99</span>
+                                    </div>
+                                    <p class="card-text">Creamy Arborio rice with wild prawns, white wine, and
+                                        Parmesan cheese</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/cake.jpg" class="card-img-top" alt="Tiramisu">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">lava cakes</h5>
+                                        <span class="menu-price">$8.99</span>
+                                    </div>
+                                    <p class="card-text">Classic Italian cakes with layers of coffee-soaked
+                                        ladyfingers and mascarpone cream</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/biscuits.jpg" class="card-img-top" alt="Chocolate Lava Cake">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">Cookies</h5>
+                                        <span class="menu-price">$9.99</span>
+                                    </div>
+                                    <p class="card-text">Warm cookies cake with a molten center, served with vanilla
+                                        ice cream</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/cupcakes.jpg" class="card-img-top" alt="New York Cheesecake">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">cup cakese</h5>
+                                        <span class="menu-price">$8.99</span>
+                                    </div>
+                                    <p class="card-text">Rich and creamy cheesecake with a graham cracker crust, topped
+                                        with fresh berries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!-- Drinks -->
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/wine1.jpg" class="card-img-top" alt="Signature Cocktails">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">Signature Cocktails</h5>
+                                        <span class="menu-price">$12.99</span>
+                                    </div>
+                                    <p class="card-text">Ask your server about our seasonal specialty cocktails</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/wine2.jpg" class="card-img-top" alt="Wine Selection">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">Wine Selection</h5>
+                                        <span class="menu-price">$9.99</span>
+                                    </div>
+                                    <p class="card-text">Extensive selection of red, white, and sparkling wines</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item">
+                                <img src="./images/wine3.jpg" class="card-img-top" alt="Craft Beer">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="card-title mb-0">mocktails</h5>
+                                        <span class="menu-price">$7.99</span>
+                                    </div>
+                                    <p class="card-text">Local and imported craft beers on tap and bottled</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- >>>>>>>>>>>>>Gallery Section<<<<<<<<<<<<<<<<<<<< -->
+    <section id="gallery" class="bg-light">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 60px;color: #3c6785;">Food Gallery</h2>
+            <p class="text-center mb-5 fs-3 fw-bold">A visual feast of our most popular and beautifully presented dishes
+            </p>
+
+            <div class="row g-4">
+                <!-- Gallery Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/bir.avif"
+                        data-title="“Biryani: where flavor meets tradition in every grain of rice.”">
+                        <img src="./images/bir.avif" alt="Signature steak dish" class="img-fluid rounded shadow"
+                            title="chicken-biryani">
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/haleem.avif"
+                        data-title="I love any kind of food.I don't have any sweet tooth,But I love hallem.">
+                        <img src="./images/haleem.avif" alt="" class="img-fluid rounded shadow" title="Haleem">
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/veg-thali.avif"
+                        data-title="Nothing will benefit human health and increase the chances for survival of life on Earth as much as the evolution to a vegetarian diet.">
+                        <img src="./images/veg-thali.avif" alt="veg-meals" class="img-fluid rounded shadow"
+                            title="veg-meals">
+                    </div>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/ragi-mudde.jpg" data-title="" Ragi Sangati and Desi Chicken the perfect blend
+                        of strength and spice, rooted in tradition, served with love!"">
+                        <img src="./images/ragi-mudde.jpg" alt="Appetizer plate" class="img-fluid rounded shadow"
+                            title="ragi-sangati-desichicken">
+                    </div>
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/tiffins.jpg"
+                        data-title="Rise, shine, and fuel your day  a good breakfast is the first step to greatness!">
+                        <img src="./images/tiffins.jpg" alt="Craft cocktail" class="img-fluid rounded shadow"
+                            title="tiffins">
+                    </div>
+                </div>
+                <!-- Gallery Item 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/fish.avif"
+                        data-title="A bowl of fish curry isn’t just food—it’s a taste of the ocean, a burst of spice, and a hug for the soul!">
+                        <img src="./images/fish.avif" alt="Restaurant interior" class="img-fluid rounded shadow"
+                            title="fish-curry">
+                    </div>
+                </div>
+                <!-- Gallery Item 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/praw.avif"
+                        data-title="Prawns curry  where oceans freshness meets a symphony of spices, creating magic in every bite!">
+                        <img src="./images/praw.avif" alt="Restaurant interior" class="img-fluid rounded shadow"
+                            title="prawns-curry">
+                    </div>
+                </div>
+                <!-- Gallery Item 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/crabs.jpg"
+                        data-title="Crab curry  a delicious mess of flavors, where every bite is a celebration of the sea!">
+                        <img src="./images/crabs.jpg" alt="Restaurant interior" class="img-fluid rounded shadow"
+                            title="crabs-curry">
+                    </div>
+                </div>
+                <!-- Gallery Item 9 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                        data-img="./images/mutton.avif"
+                        data-title="Mutton curry – slow-cooked to perfection, rich in flavor, and made with love in every spice!">
+                        <img src="./images/mutton.avif" alt="Restaurant interior" class="img-fluid rounded shadow"
+                            title="mutton-curry">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel">Image Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/placeholder.svg" alt="Gallery image" class="modal-img img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 60px;color: #3c6785;">What Our Guests Say</h2>
+            <p class="text-center mb-5 fs-3 fw-bold">Don't just take our word for it - hear from our satisfied customers
+            </p>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/chiru.jpg" alt="Sarah Johnson" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">chiru</h5>
+                                <p class="text-muted mb-0">June 15, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>The food was absolutely amazing! Every dish was prepared with such care and attention to
+                            detail. The service was impeccable, and the atmosphere was perfect for our anniversary
+                            dinner. We will definitely be coming back!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/balayya.jpg" alt="Michael Chen" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Balakrishna</h5>
+                                <p class="text-muted mb-0">May 22, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>I hosted a business dinner here and everyone was impressed. The menu offers something for
+                            everyone, and the wine selection is outstanding. The staff went above and beyond to
+                            accommodate our group. Highly recommended!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/nagarjuna.jpg" alt="Emily Rodriguez" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Nagarjuna</h5>
+                                <p class="text-muted mb-0">April 10, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>Such a cozy restaurant with delicious food. The pasta dishes are exceptional, and the
+                            desserts are to die for. The only reason I didn't give 5 stars is because it was a bit
+                            crowded, but that's understandable given how popular it is!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/venky.jpg" alt="Emily Rodriguez" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Venkatesh</h5>
+                                <p class="text-muted mb-0">April 10, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>Such a cozy restaurant with delicious food. The pasta dishes are exceptional, and the
+                            desserts are to die for. The only reason I didn't give 5 stars is because it was a bit
+                            crowded, but that's understandable given how popular it is!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/anr.jpg" alt="Emily Rodriguez" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">ANR</h5>
+                                <p class="text-muted mb-0">April 10, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>I hosted a business dinner here and everyone was impressed. The menu offers something for
+                            everyone, and the wine selection is outstanding. The staff went above and beyond to
+                            accommodate our group. Highly recommended!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="./images/ntr.jpg" alt="Emily Rodriguez" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">NTR</h5>
+                                <p class="text-muted mb-0">April 10, 2023</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>The food was absolutely amazing! Every dish was prepared with such care and attention to
+                            detail. The service was impeccable, and the atmosphere was perfect for our anniversary
+                            dinner. We will definitely be coming back!3</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="bg-light">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 62px;color: #3c6785;">Make a Reservation</h2>
+            <p class="text-center mb-5 fs-2 fw-bold">Reserve your table online and enjoy a seamless dining experience
+            </p>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="hours-box mb-4">
+                        <h4 class="mb-3 fs-2">Hours of Operation</h4>
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between mb-2 fs-5">
+                                <span>Monday - Thursday:</span>
+                                <span>11:00 AM - 10:00 PM</span>
+                            </li>
+                            <li class="d-flex justify-content-between mb-2 fs-5">
+                                <span>Friday - Saturday:</span>
+                                <span>11:00 AM - 11:00 PM</span>
+                            </li>
+                            <li class="d-flex justify-content-between fs-5">
+                                <span>Sunday:</span>
+                                <span>10:00 AM - 9:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="fw-bold">For special requests or larger parties, please call us directly at
+                        <strong>555-123-4567</strong>.
+                    </p>
+                    <p style="color: #3c6785; font-size: 17px; font-weight: 600;">We recommend making reservations at
+                        least 48 hours in advance, especially for weekend dining.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="reservation-form">
+                        <form id="reservationForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fs-4 fw-bold">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label fs-4 fw-bold">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="john@example.com"
+                                        required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label fs-4 fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="(555) 123-4567"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="date" class="form-label fs-4 fw-bold">Date</label>
+                                    <input type="date" class="form-control" id="date" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="time" class="form-label fs-4 fw-bold">Time</label>
+                                    <select class="form-select" id="time" required>
+                                        <option value="" selected disabled >Select time</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="11:30">11:30 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="12:30">12:30 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                        <option value="13:30">1:30 PM</option>
+                                        <option value="17:00">5:00 PM</option>
+                                        <option value="17:30">5:30 PM</option>
+                                        <option value="18:00">6:00 PM</option>
+                                        <option value="18:30">6:30 PM</option>
+                                        <option value="19:00">7:00 PM</option>
+                                        <option value="19:30">7:30 PM</option>
+                                        <option value="20:00">8:00 PM</option>
+                                        <option value="20:30">8:30 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="guests" class="form-label fs-4 fw-bold">Number of Guests</label>
+                                <select class="form-select" id="guests" required>
+                                    <option value="" selected disabled>Select number of guests</option>
+                                    <option value="1">1 guest</option>
+                                    <option value="2">2 guests</option>
+                                    <option value="3">3 guests</option>
+                                    <option value="4">4 guests</option>
+                                    <option value="5">5 guests</option>
+                                    <option value="6">6 guests</option>
+                                    <option value="7">7 guests</option>
+                                    <option value="8">8 guests</option>
+                                    <option value="9+">9+ guests (large party)</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="specialRequests" class="form-label fs-4 fw-bold">Special Requests (Optional)</label>
+                                <textarea class="form-control" id="specialRequests" rows="3"
+                                    placeholder="Allergies, dietary restrictions, special occasions, etc."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark fs-4 w-90 pt-1">Reserve Table</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- ................cheft section starts.................. -->
+    <p class="text-center" style="color: #3c6785; font-size: 35px;font-weight: 600;">--Team Members--</p>
+    <p class="text-center" style="font-size: 59px;font-weight: 600;">Our Master chefs</p>
+
+     <div class="d-flex justify-content-evenly">
+       
+        <div class="card" style="width: 18rem; box-shadow: rgba(124, 179, 225, 0.47) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;">
+            <img src="./images/chef1.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center fs-5 fw-bold">ShivaRam</p>
+              <p class="card-text text-center">Executive Chef In Our Branch</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; box-shadow: rgba(124, 179, 225, 0.47) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;">
+            <img src="./images/chef3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center fs-5 fw-bold">Santosh Shah</p>
+              <p class="card-text text-center">Meat Chef In Our Branch</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; box-shadow: rgba(124, 179, 225, 0.47) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;">
+            <img src="./images/chef4.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center fs-5 fw-bold">John Anderson</p>
+              <p class="card-text text-center">Veg Chef In Our Branch</p>
+
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; box-shadow: rgba(124, 179, 225, 0.47) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;">
+            <img src="./images/chef5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center fs-5 fw-bold">John</p>
+              <p class="card-text text-center">Pastry Chef In Our Branch</p>
+            </div>
+          </div>
+
+     </div>
+    
+
+     <!-- ................cheft sections ends.................. -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 60px; color: #3c6785;">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body card-bodyy text-center">
+                            <i class="bi bi-geo-alt text-primary" style="font-size: 2rem;"></i>
+                            <h4 class="mt-3 fs-2">Our Location</h4>
+                            <p>123 Culinary St, Foodville, FC 12345</p>
+                            <a href="https://maps.google.com" target="_blank" class="btn btn-outline-primary">Get
+                                Directions</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body card-bodyy text-center">
+                            <i class="bi bi-telephone text-primary" style="font-size: 2rem;"></i>
+                            <h4 class="mt-3 fs-2">Call Us</h4>
+                            <p>555-123-4567</p>
+                            <a href="tel:5551234567" class="btn btn-outline-primary">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body card-bodyy text-center">
+                            <i class="bi bi-envelope text-primary" style="font-size: 2rem;"></i>
+                            <h4 class="mt-3 fs-2">Email Us</h4>
+                            <p>info@savorydelights.com</p>
+                            <a href="mailto:info@savorydelights.com" class="btn btn-outline-primary">Send Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-4 fs-1"><img style="height: 1.5em; width: 1.5em;" src="./images/babai_logo_new_1-1.png" alt=""></h4>
+                    <p>Bringing culinary excellence to your table since 2020.</p>
+                    <div class="social-icons mt-4 fs-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-yelp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-4 fs-1">Contact Info</h4>
+                    <ul class="list-unstyled footer-links fs-5">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="bi bi-geo-alt me-2"></i>
+                            <span>123 Culinary St, Foodville, FC 12345</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="bi bi-telephone me-2"></i>
+                            <span>555-123-4567</span>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="bi bi-envelope me-2"></i>
+                            <span>info@savorydelights.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="mb-4 fs-1">Quick Links</h4>
+                    <ul class="list-unstyled footer-links fs-5">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-4 pt-4 text-center fs-5">
+                <p>&copy;
+                    <script>document.write(new Date().getFullYear())</script> Savory Delights. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+
+        // Back to top button
+        window.addEventListener('scroll', function () {
+            const backToTop = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Gallery modal
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const modalTitle = document.getElementById('galleryModalLabel');
+        const modalImg = document.querySelector('.modal-img');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', function () {
+                const imgSrc = this.getAttribute('data-img');
+                const imgTitle = this.getAttribute('data-title');
+                modalImg.src = imgSrc;
+                modalTitle.textContent = imgTitle;
+            });
+        });
+
+        // Form submission
+        document.getElementById('reservationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get form values
+            const name = document.getElementById('name').value;
+            const date = document.getElementById('date').value;
+            const time = document.getElementById('time').value;
+            const guests = document.getElementById('guests').value;
+
+            // Show success message (in a real application, you would send this to a server)
+            alert(`Thank you, ${name}! Your reservation for ${guests} on ${date} at ${time} has been received. We'll contact you shortly to confirm.`);
+
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
